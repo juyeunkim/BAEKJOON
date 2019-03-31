@@ -41,12 +41,6 @@ void bfs(int x, int y){
                 q.push(make_pair(xx, yy)); wall.push(make_pair(wall_cnt+1, cnt+1));}
             
             
-            
-            if(xx == n && yy == m){
-                if(ans < cnt) ans = cnt;
-                break;
-            }
-            
             visited[xx][yy][wall_cnt] = true;
             
         }

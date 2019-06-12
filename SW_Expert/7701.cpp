@@ -19,6 +19,13 @@ bool comp (const string& a, const string& b){
 
 int main(){
     // 수행시간 초과로 cin,cout 대신 scanf, printf사용
+ 
+    /*
+    cin.tie(NULL);
+    ios::sync_with_stdio(false); 
+    
+    사용후 endl 대신에 '\n' 사용해도 같은 결과 나옴 !
+    */
     int T;
     cin>>T;
     for(int t=1; t<=T; t++){
